@@ -1,16 +1,13 @@
 import { FastifyInstance } from "fastify"
 import { ZodTypeProvider } from "fastify-type-provider-zod"
 
-import nodemailer from 'nodemailer'
-
 import { z } from "zod"
 import { prisma } from "../lib/prisma"
-import { getMailClient } from "../lib/mail"
 import { dayjs } from "../lib/dayjs"
 
 export async function updateTrip(app: FastifyInstance) {
   app.withTypeProvider<ZodTypeProvider>().put(
-    "/trips/:tripId/update-trip",
+    "/trips/:tripId/update",
     {
       schema: {
         params: z.object({
