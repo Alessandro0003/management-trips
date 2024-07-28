@@ -30,16 +30,16 @@
 
 [x] - Não deve ser possível criar uma viagem sem informar. 
 
-    - Destino.
-    - Inicio.
-    - Fim.
-    - Nome do Titular da viagem (owner_name).
-    - Email do Titular da viagem (owner_email).
-    - Email para confirmação da viagem.
+    -Destino.
+    -Inicio.
+    -Fim.
+    -Nome do Titular da viagem (owner_name).
+    -Email do Titular da viagem (owner_email).
+    -Email para confirmação da viagem.
 
 [x] - Não deve ser possível criar uma viagem com uma data ínvalida.
     
-    - Exemplo: data que ja se passou.
+    -Exemplo: data que ja se passou.
 
 [x] - Não deve ser possível criar uma convite sem uma viagem criada.
 
